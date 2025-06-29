@@ -2,14 +2,15 @@
 
 ##  Overview
 This project uses a Siamese CNN to perform face verification on distorted and reference face image pairs.
-Validation → Accuracy: 0.9504, Macro-F1: 0.8206
+>Validation → Accuracy: 0.9504, Macro-F1: 0.8206
 
 ##  Folder Structure
+```
 Comys_Hackathon5/
 ├── Task_B/
 │ ├── train/
 │ └── val/
-
+```
 
 
 ##  Model Architecture
@@ -21,7 +22,7 @@ Comys_Hackathon5/
 
 1. **Train** using the Colab notebook: `siamese_net_taskB.ipynb`
 2. **Test**:
-```bash
+```
 python test_script.py /path/to/val
 ```
 🧾 Output
