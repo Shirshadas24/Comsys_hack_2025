@@ -2,6 +2,7 @@
 
 ## Overview
 This project uses `EfficientNet-B0` to classify facial images into Male or Female categories using a binary classifier.
+
 Test Results → Accuracy: 0.9550, Precision: 0.9656, Recall: 0.9748, F1-Score: 0.9702
 
 ##  Model
@@ -11,15 +12,16 @@ Test Results → Accuracy: 0.9550, Precision: 0.9656, Recall: 0.9748, F1-Score: 
 - Optimizer: Adam
 
 ##  Dataset
+```
 Comys_Hackathon5/
 ├── Task_A/
 │ ├── train/
 │ │ ├── male/
 │ │ └── female/
 │ └── val/
-├── male/
-└── female/
-
+|  ├── male/
+|  └── female/
+```
 
 ##  How to Run
 ### 1. Install dependencies
