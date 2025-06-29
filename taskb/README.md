@@ -38,7 +38,8 @@ dataset.py: Custom dataset
 
 test_script.py: Evaluation
 
-siamese_model_taskB.pth: Trained weights
+siamese_model_taskB.pth:  Download Pretrained Weights  
+[Siamese Model Weights (Google Drive)] (https://drive.google.com/file/d/1qp_jY6h0cDai10RfJ_HgbvTBZXIO1J3h/view?usp=drivesdk)
 
 README.md: You are here
 
