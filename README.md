@@ -1,6 +1,6 @@
 #  COMSYS Hackathon 2025 Submission
 
-**Author:** [Shirsha Das](https://shirshadas.vercel.app/)  , [Pritam Kumar Roy](https://pritam-kumar-roy.vercel.app/)
+**Authors:** [Shirsha Das](https://shirshadas.vercel.app/)  , [Pritam Kumar Roy](https://pritam-kumar-roy.vercel.app/)
 
 **Track:** Computer Vision  
 
@@ -50,7 +50,7 @@ comsys-hackathon/
 - Recall  
 - F1-Score  
 
-### ✅ Files Explained
+###  Files Explained
 
 | File | Description |
 |------|-------------|
@@ -72,12 +72,12 @@ comsys-hackathon/
 - `train/` folder with identity-wise folders
 - `val/` folder with test images (match vs non-match)
 
-### 🧪 Evaluation Metrics
+###  Evaluation Metrics
 
 - Accuracy   
 - Macro-averaged F1-Score
 
-### ✅ Files Explained
+###  Files Explained
 
 | File | Description |
 |------|-------------|
@@ -101,7 +101,7 @@ Optional (for model visualization):
 ```
 pip install torchviz graphviz
 ```
-▶️ Run Test Script
+▶ Run Test Script
 To evaluate on your own test set (Task A or B):
 
 ```
