@@ -26,7 +26,7 @@ Comys_Hackathon5/
 ##  How to Run
 ### 1. Install dependencies
 ```
-pip install torch torchvision efficientnet_pytorch scikit-learn
+pip install -r requirements.txt
 ```
 2. Train the model
 Run the notebook: gender_classifier.ipynb
@@ -56,3 +56,5 @@ test_script.py: Evaluation
 README.md: You are here 
 
 efficientnet_gender_diagram: Model architecture diagram
+
+requirements.txt : Dependencies
