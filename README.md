@@ -125,7 +125,7 @@ Due to GitHub's 100MB limit, siamese_model_taskB.pth file is available here:
 
 All notebooks and scripts have been tested on Google Colab (T4 GPU).
 
-.pth files are either uploaded via Git LFS or hosted externally.
+.pth files are either uploaded via Git or hosted externally.
 
 Code is modular and reproducible.
 
