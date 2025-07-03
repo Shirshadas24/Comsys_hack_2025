@@ -17,7 +17,9 @@ comsys-hackathon/
 │ ├── test_script.py ← Test script
 │ ├── efficientnet_gender_classifier.pth ← Trained model weights 
 │ ├── efficientnet_gender_diagram.png ← Model diagram
+| ├── requirements.txt ← Dependencies
 │ └── README.md ← Task-specific instructions
+| 
 │
 ├── taskb/
 │ ├── task_b_siamese_net.ipynb ← Training & validation notebook
@@ -26,6 +28,7 @@ comsys-hackathon/
 │ ├── dataset.py ← Dataset class for training pairs
 │ ├── siamese_model_taskB.pth ← Trained Siamese weights (external link provided (https://drive.google.com/file/d/1qp_jY6h0cDai10RfJ_HgbvTBZXIO1J3h/view?usp=drivesdk ))
 │ ├── siamese_model_diagram.png ← Model diagram
+| ├── requirements.txt ← Dependencies
 │ └── README.md ← Task-specific instructions
 
 ```
@@ -74,7 +77,7 @@ comsys-hackathon/
 
 ###  Evaluation Metrics
 
-- Accuracy   
+- Top-1 Accuracy   
 - Macro-averaged F1-Score
 
 ###  Files Explained
