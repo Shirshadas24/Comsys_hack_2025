@@ -2,14 +2,20 @@
 
 ##  Overview
 This project uses a Siamese CNN to perform face verification on distorted and reference face image pairs.
->Validation → Accuracy: 0.9504, Macro-F1: 0.8206
+>Validation → Top-1 Accuracy: 0.9504, Macro-averaged F1-Score: 0.8206
 
 ##  Folder Structure
 ```
-Comys_Hackathon5/
-├── Task_B/
-│ ├── train/
-│ └── val/
+taskb/
+├── task_b_siamese_net.ipynb ← Training notebook
+├── test_script.py ← Test script to evaluate performance
+├── model.py ← Siamese model architecture
+├── dataset.py ← Dataset class to generate training pairs
+├── siamese_model_taskB.pth ← Trained model weights (external download recommended)
+├── siamese_model_diagram.png ← Network diagram
+├── requirements.txt ← Dependency file
+└── README.md ← This file
+
 ```
 
 
@@ -19,18 +25,21 @@ Comys_Hackathon5/
 - Binary classification (match or not)
 
 ##  How to Run
-
-1. **Train** using the Colab notebook: `siamese_net_taskB.ipynb`
-2. **Test**:
+### 1. Install dependencies
+```
+pip install -r requirements.txt
+```
+2. **Train** using the Colab notebook: `siamese_net_taskB.ipynb`
+3. **Test**:
 ```
 python test_script.py /path/to/val
 ```
 🧾 Output
 The script prints:
 
-Accuracy
+Top-1 Accuracy
 
-Macro F1-Score
+Macro-averaged F1-Score
 
 ## Files
 model.py: Model architecture
@@ -46,3 +55,4 @@ README.md: You are here
 
 siamese_model_diagram.png: Model architecture diagram
 
+requirements.txt : Dependency file
