@@ -2,8 +2,7 @@
 
 ## Overview
 This project uses `EfficientNet-B0` to classify facial images into Male or Female categories using a binary classifier.
-
-Test Results → Accuracy: 0.9289, Precision: 0.9258, Recall: 0.9842, F1-Score: 0.9541
+>Test Results → Accuracy: 92.89%, Precision: 92.58%, Recall: 98.42%, F1-Score: 95.41%
 
 ##  Model
 - Pretrained EfficientNet-B0 (from `efficientnet_pytorch`)
@@ -26,7 +25,6 @@ Comys_Hackathon5/
 ##  How to Run
 ### 1. Install dependencies
 ```
-pip install -r requirements.txt
 pip install -r requirements.txt
 ```
 2. Train the model
@@ -60,4 +58,3 @@ efficientnet_gender_diagram: Model architecture diagram
 
 requirements.txt : Dependencies
 
-requirements.txt : Dependencies
