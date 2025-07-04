@@ -47,7 +47,7 @@ comsys-hackathon/
   ├── `male/`  
   └── `female/`
 
-### 📊 Evaluation Metrics
+###  Evaluation Metrics
 
 - Accuracy  
 - Precision  
@@ -96,7 +96,7 @@ comsys-hackathon/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 To run locally:
 
@@ -114,12 +114,12 @@ To evaluate on your own test set (Task A or B):
 python test_script.py /path/to/test/folder
 ```
 Output will include:
-
+```
 Accuracy: ...
 Precision: ...
 Recall: ...
 F1-Score: ...
-
+```
 
 ## Model Weights Download (if needed)
 Due to GitHub's 100MB limit, siamese_model_taskB.pth file is available here:
