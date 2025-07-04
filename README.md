@@ -20,13 +20,14 @@ comsys-hackathon/
 | ├── requirements.txt ← Dependencies
 │ └── README.md ← Task-specific instructions
 | 
+| 
 │
 ├── taskb/
 │ ├── task_b_siamese_net.ipynb ← Training & validation notebook
 │ ├── test_script.py ← Test script
 │ ├── model.py ← Siamese model definition
 │ ├── dataset.py ← Dataset class for training pairs
-│ ├── siamese_model_taskB.pth ← Trained Siamese weights (external link provided (https://drive.google.com/file/d/1qp_jY6h0cDai10RfJ_HgbvTBZXIO1J3h/view?usp=drivesdk ))
+│ ├── siamese_model_taskB.pth ← Trained Siamese weights (external link provided)
 │ ├── siamese_model_diagram.png ← Model diagram
 | ├── requirements.txt ← Dependencies
 │ └── README.md ← Task-specific instructions
@@ -77,8 +78,10 @@ comsys-hackathon/
 
 ###  Evaluation Metrics
 
-- Top-1 Accuracy   
-- Macro-averaged F1-Score
+- Accuracy  
+- Precision  
+- Recall  
+- F1-Score  
 
 ###  Files Explained
 
@@ -116,12 +119,12 @@ Accuracy: ...
 Precision: ...
 Recall: ...
 F1-Score: ...
-etc...
+
 
 ## Model Weights Download (if needed)
 Due to GitHub's 100MB limit, siamese_model_taskB.pth file is available here:
 
-[Google Drive Link](https://drive.google.com/file/d/1qp_jY6h0cDai10RfJ_HgbvTBZXIO1J3h/view?usp=drivesdk)
+[Google Drive Link](https://drive.google.com/file/d/1kG7_-5Ylov9_YTrBJ51_G75j66yEL16U/view?usp=sharing)
 
 
 ## Submission Notes:
@@ -135,4 +138,3 @@ Code is modular and reproducible.
 Diagrams created using torchviz.
 
 © 2025 Shirsha Das – COMSYS Hackathon
-
