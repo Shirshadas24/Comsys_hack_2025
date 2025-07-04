@@ -2,7 +2,7 @@
 
 ##  Overview
 This project uses a Siamese CNN to perform face verification on distorted and reference face image pairs.
-Validation → Acc=96.10% | Prec=97.55% | Rec=98.24% | F1=97.89%
+>Validation → Acc=96.10% | Prec=97.55% | Rec=98.24% | F1=97.89%
 
 ##  Folder Structure
 ```
@@ -54,7 +54,7 @@ dataset.py: Custom dataset
 test_script.py: Evaluation
 
 siamese_model_taskB.pth:  Download Pretrained Weights  
-[Siamese Model Weights (Google Drive)] (https://drive.google.com/file/d/1kG7_-5Ylov9_YTrBJ51_G75j66yEL16U/view?usp=sharing)
+[Siamese Model Weights (Google Drive)](https://drive.google.com/file/d/1kG7_-5Ylov9_YTrBJ51_G75j66yEL16U/view?usp=sharing)
 
 README.md: You are here
 
